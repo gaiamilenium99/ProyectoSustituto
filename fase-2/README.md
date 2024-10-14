@@ -4,14 +4,14 @@ Para el despliegue del contenedor del modelo de prediccion del sistema de bicicl
 
 1. Instalar Doker, y que este se encuentre en estado activo.
 
-2. Clonar el repositorio (se recomienta utilizar Visual code para su ejecucion).
+2. Clonar el repositorio (se recomienta utilizar Visual code para su manejo).
 
-2. Acceder a la carpeta de fase 2 desde terminal.
+2. Acceder a la carpeta de fase 2 desde terminal (cd fase-2).
 
-4. Contruir la imagen:
+4. Construir la imagen:
 	Para esto ejecutamos: "docker build -t imagen-modelo-bicicletas .".
 
-5. Ejeutar el contenedor:
+5. Ejecutar el contenedor:
 	Se ejecuta: "docker run -d --name contenedor-modelo-bicicletas imagen-modelo-bicicletas".
 
 Para ejecutar la imagen se puede usar la siguiente linea: "docker run -it --rm imagen-modelo-bicicletas".
