@@ -1,4 +1,4 @@
-﻿# Paquetes esenciales para manipulación de datos y cálculos científicos 
+﻿# Paquetes esenciales para manipulación de datos y cálculos científicos
 numpy==1.26.4
 pandas==1.4.2
 scipy==1.14.0
@@ -9,27 +9,18 @@ seaborn==0.13.2
 
 # Machine Learning
 scikit-learn==1.5.2
-xgboost==1.7.6  # Solo si lo usas en tu modelo
+xgboost==1.7.6  # Dependiendo de si lo usas en tu modelo
 
 # Procesos paralelos y control de tareas
 joblib==1.4.2
 threadpoolctl==3.5.0
 
-# Descarga de archivos de Google Drive
+#Descarga de archivos de drive
 gdown==4.2.0
 
-# API REST (FastAPI y dependencias relacionadas)
-fastapi==0.100.0
-uvicorn==0.23.2
-
-# Peticiones HTTP para el cliente
-requests==2.31.0
-httpx==0.25.0  # Alternativa para peticiones HTTP, útil para pruebas
-
 # Utilidades adicionales
-tqdm==4.66.5  # Para barras de progreso en scripts
-python-dotenv==1.0.0  # Para manejar variables de entorno
+tqdm==4.66.5  # Para barras de progreso si lo estás usando en los scripts
 
 # Dependencias de compatibilidad y formatos de archivo
-PyYAML==6.0.1  # Para configuraciones en YAML
-python-dateutil==2.8.2  # Fechas en pandas
+PyYAML==6.0.1  # Si estás manejando configuraciones en YAML
+python-dateutil==2.8.2  # Para trabajar con fechas en pandas
